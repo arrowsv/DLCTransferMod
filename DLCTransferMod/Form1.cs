@@ -66,7 +66,7 @@ namespace DLCTransferMod
             }
         }
 
-        public void UnpackVPP()
+        private async Task UnpackVPP()
         {
             string tempFolder = gamePath.Text + "\\data\\_TEMP";
 
@@ -113,7 +113,7 @@ namespace DLCTransferMod
             }
         }
 
-        public void PackVPP()
+        private async Task PackVPP()
         {
             try
             {
@@ -154,7 +154,7 @@ namespace DLCTransferMod
             }
         }
 
-        private void installButton_Click(object sender, EventArgs e)
+        private async void installButton_Click(object sender, EventArgs e)
         {
 
             // Check if any checkbox was checked before continuing
@@ -187,15 +187,15 @@ namespace DLCTransferMod
 
             try
             {
-                UnpackVPP();
+                await Task.Run(() => UnpackVPP());
 
                 copyingGIF.Visible = true;
 
                 // Copy files to vehicles_r.vpp & misc.vpp if checked
                 if (installVehicles.Checked == true)
                 {
-                    CopyVehiclesMisc(sourceDirectoryVEHICLEMISC, targetDirectoryVEHICLEMISC);
-                    CopyVehicles_r(sourceDirectoryVEHICLE_R, targetDirectoryVEHICLE_R);
+                    await Task.Run(() => CopyVehiclesMisc(sourceDirectoryVEHICLEMISC, targetDirectoryVEHICLEMISC));
+                    await Task.Run(() => CopyVehicles_r(sourceDirectoryVEHICLE_R, targetDirectoryVEHICLE_R));
 
                 }
                 else
@@ -203,20 +203,20 @@ namespace DLCTransferMod
                     Console.WriteLine("Vehicles aren't being installed.");
                 }
 
-                copyProgress.Value = 25;
+                copyProgress.Value = 55;
 
                 // Copy files to items.vpp_pc & misc.vpp if checked
                 if (installWeapons.Checked == true)
                 {
-                    CopyWeaponsMisc(@sourceDirectoryWEAPONMISC, @targetDirectoryWEAPONMISC);
-                    CopyWeaponsItems(@sourceDirectoryWEAPONITEMS, @targetDirectoryWEAPONITEMS);
+                    await Task.Run(() => CopyWeaponsMisc(@sourceDirectoryWEAPONMISC, @targetDirectoryWEAPONMISC));
+                    await Task.Run(() => CopyWeaponsItems(@sourceDirectoryWEAPONITEMS, @targetDirectoryWEAPONITEMS));
                 }
                 else
                 {
                     Console.WriteLine("Vehicles aren't being installed.");
                 }
 
-                copyProgress.Value = 65;
+                copyProgress.Value = 100;
 
                 copyingGIF.Image = DLCTransferMod.Properties.Resources.icons8_checkmark_15;
 
@@ -246,7 +246,7 @@ namespace DLCTransferMod
                 // Pack VPPs
                 packingGIF.Visible = true;
 
-               PackVPP();
+               await Task.Run(() => PackVPP());
 
                 packingGIF.Image = DLCTransferMod.Properties.Resources.icons8_checkmark_15;
 
@@ -262,7 +262,7 @@ namespace DLCTransferMod
                     }
                     catch
                     {
-                        Thread.Sleep(2000);
+                        await Task.Run(() => Thread.Sleep(2000));
                         Directory.Delete(gamePath.Text + "\\data\\_TEMP\\", recursive: true);
                     }
                 }
@@ -398,7 +398,7 @@ namespace DLCTransferMod
 
         // ---------------------------------------------------------------------------------- //
 
-        private void CopyVehiclesMisc(DirectoryInfo source, DirectoryInfo target)
+        private async Task CopyVehiclesMisc(DirectoryInfo source, DirectoryInfo target)
         {
             string path = gamePath.Text + "\\data\\_TEMP\\misc.vpp_pc.UNPACKED\\";
             string[] files = Directory.GetFiles(Environment.CurrentDirectory + "\\vehicles_r.vpp\\misc.vpp");
@@ -423,7 +423,7 @@ namespace DLCTransferMod
                 file.CopyTo(Path.Combine(target.FullName, file.Name));
         }
 
-        private void CopyVehicles_r(DirectoryInfo source, DirectoryInfo target)
+        private async Task CopyVehicles_r(DirectoryInfo source, DirectoryInfo target)
         {
             string path = gamePath.Text + "\\data\\_TEMP\\vehicles_r.vpp_pc.UNPACKED\\";
             string[] files = Directory.GetFiles(Environment.CurrentDirectory + "\\vehicles_r.vpp\\vehicles_r.vpp");
@@ -453,7 +453,7 @@ namespace DLCTransferMod
 
         // --------- WEAPONS ---------
 
-        private void CopyWeaponsMisc(DirectoryInfo source, DirectoryInfo target)
+        private async Task CopyWeaponsMisc(DirectoryInfo source, DirectoryInfo target)
         {
             string path = gamePath.Text + "\\data\\_TEMP\\misc.vpp_pc.UNPACKED\\";
             string[] files = Directory.GetFiles(Environment.CurrentDirectory + "\\items.vpp\\misc.vpp");
@@ -478,7 +478,7 @@ namespace DLCTransferMod
                 file.CopyTo(Path.Combine(target.FullName, file.Name));
         }
 
-        private void CopyWeaponsItems(DirectoryInfo source, DirectoryInfo target)
+        private async Task CopyWeaponsItems(DirectoryInfo source, DirectoryInfo target)
         {
             string path = gamePath.Text + "\\data\\_TEMP\\items.vpp_pc.UNPACKED\\";
             string[] files = Directory.GetFiles(Environment.CurrentDirectory + "\\items.vpp\\items.vpp");
