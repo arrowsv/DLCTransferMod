@@ -90,7 +90,9 @@ namespace DLCTransferMod
                     Console.WriteLine("Vehicles aren't being unpacked.");
                 }
 
-                unpackProgress.Value = 60;
+                unpackProgress.Invoke((MethodInvoker)delegate {
+                    unpackProgress.Value = 60;
+                });
 
                 // If the DLC Weapons checkbox is checked, unpack items.vpp_pc
                 if (installWeapons.Checked == true)
@@ -103,7 +105,9 @@ namespace DLCTransferMod
                     Console.WriteLine("Weapons aren't being unpacked.");
                 }
 
-                unpackProgress.Value = 100;
+                unpackProgress.Invoke((MethodInvoker)delegate {
+                    unpackProgress.Value = 100;
+                });
 
                 unpackingGIF.Image = DLCTransferMod.Properties.Resources.icons8_checkmark_15;
             }
@@ -120,7 +124,9 @@ namespace DLCTransferMod
                string[] Args = { gamePath.Text + "\\data\\misc.vpp_pc", gamePath.Text + "\\data\\_TEMP\\misc.vpp_pc.UNPACKED\\" };
                int UnpackExitCode = new Gibbed.Volition.Pack.VPP.Packer<Gibbed.Volition.FileFormats.PackageFileV3, Gibbed.Volition.FileFormats.Package.Entry>().Main(Args);
 
-                packingProgress.Value = 10;
+                packingProgress.Invoke((MethodInvoker)delegate {
+                    packingProgress.Value = 30;
+                });
 
                 if (installWeapons.Checked == true)
                 {
@@ -132,7 +138,9 @@ namespace DLCTransferMod
                     Console.WriteLine("");
                 }
 
-                packingProgress.Value = 55;
+                packingProgress.Invoke((MethodInvoker)delegate {
+                    packingProgress.Value = 55;
+                });
 
                 if (installVehicles.Checked == true)
                 {
@@ -144,7 +152,9 @@ namespace DLCTransferMod
                     Console.WriteLine("");
                 }
 
-                packingProgress.Value = 100;
+                packingProgress.Invoke((MethodInvoker)delegate {
+                    packingProgress.Value = 100;
+                });
 
                 packingGIF.Image = DLCTransferMod.Properties.Resources.icons8_checkmark_15;
             }
