@@ -2974,38 +2974,17 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>The installation has now finished!
+
+If you are to install mods with "Mod Manager" please make sure none of the mods that you are activating uses the replace function on any of these files (depends on what you installed):</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Welcome to the installer for the Demons of the Badlands Content Mod! 
 
 Before you start, please be sure that you own the Re-mars-tered version of the game and have a clean and backup version of the 3 VPPs (vehicles_r.vpp_pc, items.vpp_pc, misc.vpp_pc).
 
 Click the Continue button to move on with the installation!</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>The installation has now finished!
-
-If you are to install mods with "Mod Manager" please make sure none of the mods that you are activating uses the replace function on any of these files (depends on what you installed):
-
-If you installed DLC Vehicles:
-* anim_files.xtbl
-* anim_set_filenames.xtbl
-* vehicle_cover.xtbl
-* vehicle_interactions.xtbl
-* vehicles.xtbl
-
-If you installed DLC Weapons:
-* character.xtbl
-* explosions.xtbl
-* items_3d.xtbl
-* items_inventory.xtbl
-* melee.xtbl
-* turrets.xtbl
-* weapons.xtbl
-
-You may now run the game with this mod installed!
-
-
-</value>
   </data>
   <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

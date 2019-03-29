@@ -68,6 +68,11 @@
             this.packingGIF = new System.Windows.Forms.PictureBox();
             this.copyingGIF = new System.Windows.Forms.PictureBox();
             this.unpackingGIF = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -346,7 +351,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.DimGray;
-            this.label11.Location = new System.Drawing.Point(7, 268);
+            this.label11.Location = new System.Drawing.Point(24, 268);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(344, 15);
             this.label11.TabIndex = 28;
@@ -354,9 +359,9 @@
             // 
             // cleanProgress
             // 
-            this.cleanProgress.Location = new System.Drawing.Point(6, 286);
+            this.cleanProgress.Location = new System.Drawing.Point(27, 286);
             this.cleanProgress.Name = "cleanProgress";
-            this.cleanProgress.Size = new System.Drawing.Size(412, 27);
+            this.cleanProgress.Size = new System.Drawing.Size(372, 27);
             this.cleanProgress.TabIndex = 27;
             // 
             // label10
@@ -364,7 +369,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.DimGray;
-            this.label10.Location = new System.Drawing.Point(7, 198);
+            this.label10.Location = new System.Drawing.Point(24, 199);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(344, 15);
             this.label10.TabIndex = 26;
@@ -372,9 +377,9 @@
             // 
             // packingProgress
             // 
-            this.packingProgress.Location = new System.Drawing.Point(6, 216);
+            this.packingProgress.Location = new System.Drawing.Point(27, 216);
             this.packingProgress.Name = "packingProgress";
-            this.packingProgress.Size = new System.Drawing.Size(412, 27);
+            this.packingProgress.Size = new System.Drawing.Size(372, 27);
             this.packingProgress.TabIndex = 25;
             // 
             // label9
@@ -382,7 +387,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.DimGray;
-            this.label9.Location = new System.Drawing.Point(7, 130);
+            this.label9.Location = new System.Drawing.Point(24, 130);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(344, 15);
             this.label9.TabIndex = 24;
@@ -390,9 +395,9 @@
             // 
             // copyProgress
             // 
-            this.copyProgress.Location = new System.Drawing.Point(6, 148);
+            this.copyProgress.Location = new System.Drawing.Point(27, 148);
             this.copyProgress.Name = "copyProgress";
-            this.copyProgress.Size = new System.Drawing.Size(412, 27);
+            this.copyProgress.Size = new System.Drawing.Size(372, 27);
             this.copyProgress.TabIndex = 23;
             // 
             // label8
@@ -400,7 +405,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(7, 67);
+            this.label8.Location = new System.Drawing.Point(24, 67);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(344, 15);
             this.label8.TabIndex = 22;
@@ -408,9 +413,9 @@
             // 
             // unpackProgress
             // 
-            this.unpackProgress.Location = new System.Drawing.Point(6, 85);
+            this.unpackProgress.Location = new System.Drawing.Point(27, 85);
             this.unpackProgress.Name = "unpackProgress";
-            this.unpackProgress.Size = new System.Drawing.Size(412, 27);
+            this.unpackProgress.Size = new System.Drawing.Size(372, 27);
             this.unpackProgress.Step = 50;
             this.unpackProgress.TabIndex = 19;
             // 
@@ -428,6 +433,11 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label18);
+            this.tabPage4.Controls.Add(this.label16);
+            this.tabPage4.Controls.Add(this.label17);
+            this.tabPage4.Controls.Add(this.label15);
+            this.tabPage4.Controls.Add(this.label14);
             this.tabPage4.Controls.Add(this.label13);
             this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
@@ -452,11 +462,11 @@
             // label13
             // 
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(24, 65);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(391, 474);
+            this.label13.Size = new System.Drawing.Size(391, 128);
             this.label13.TabIndex = 19;
             this.label13.Text = resources.GetString("label13.Text");
             // 
@@ -497,7 +507,7 @@
             // cleaningGIF
             // 
             this.cleaningGIF.Image = ((System.Drawing.Image)(resources.GetObject("cleaningGIF.Image")));
-            this.cleaningGIF.Location = new System.Drawing.Point(78, 266);
+            this.cleaningGIF.Location = new System.Drawing.Point(95, 266);
             this.cleaningGIF.Name = "cleaningGIF";
             this.cleaningGIF.Size = new System.Drawing.Size(17, 18);
             this.cleaningGIF.TabIndex = 32;
@@ -507,7 +517,7 @@
             // packingGIF
             // 
             this.packingGIF.Image = ((System.Drawing.Image)(resources.GetObject("packingGIF.Image")));
-            this.packingGIF.Location = new System.Drawing.Point(75, 196);
+            this.packingGIF.Location = new System.Drawing.Point(92, 196);
             this.packingGIF.Name = "packingGIF";
             this.packingGIF.Size = new System.Drawing.Size(17, 18);
             this.packingGIF.TabIndex = 31;
@@ -517,7 +527,7 @@
             // copyingGIF
             // 
             this.copyingGIF.Image = ((System.Drawing.Image)(resources.GetObject("copyingGIF.Image")));
-            this.copyingGIF.Location = new System.Drawing.Point(78, 129);
+            this.copyingGIF.Location = new System.Drawing.Point(95, 129);
             this.copyingGIF.Name = "copyingGIF";
             this.copyingGIF.Size = new System.Drawing.Size(17, 18);
             this.copyingGIF.TabIndex = 30;
@@ -527,11 +537,63 @@
             // unpackingGIF
             // 
             this.unpackingGIF.Image = ((System.Drawing.Image)(resources.GetObject("unpackingGIF.Image")));
-            this.unpackingGIF.Location = new System.Drawing.Point(93, 67);
+            this.unpackingGIF.Location = new System.Drawing.Point(110, 67);
             this.unpackingGIF.Name = "unpackingGIF";
             this.unpackingGIF.Size = new System.Drawing.Size(17, 18);
             this.unpackingGIF.TabIndex = 29;
             this.unpackingGIF.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(24, 166);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(209, 16);
+            this.label14.TabIndex = 20;
+            this.label14.Text = "If you installed DLC Vehicles:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(24, 182);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(160, 80);
+            this.label15.TabIndex = 21;
+            this.label15.Text = "• anim_files.xtbl\r\n• anim_set_filenames.xtbl\r\n• vehicle_cover.xtbl\r\n• vehicle_int" +
+    "eractions.xtbl\r\n• vehicles.xtbl";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(24, 309);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(134, 112);
+            this.label16.TabIndex = 23;
+            this.label16.Text = "• character.xtbl\r\n• explosions.xtbl\r\n• items_3d.xtbl\r\n• items_inventory.xtbl\r\n• m" +
+    "elee.xtbl\r\n• turrets.xtbl\r\n• weapons.xtbl";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(24, 293);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(215, 16);
+            this.label17.TabIndex = 22;
+            this.label17.Text = "If you installed DLC Weapons:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(24, 455);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(386, 16);
+            this.label18.TabIndex = 24;
+            this.label18.Text = "If you have checked everything, you are ready to play the game!";
             // 
             // Form1
             // 
@@ -606,6 +668,11 @@
         private System.Windows.Forms.PictureBox copyingGIF;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
     }
 }
 
