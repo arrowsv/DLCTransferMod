@@ -141,7 +141,7 @@ namespace DLCTransferMod
                 }
                 else
                 {
-                    Console.WriteLine("t");
+                    Console.WriteLine("");
                 }
 
                 packingProgress.Value = 100;
