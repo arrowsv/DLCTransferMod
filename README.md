@@ -13,8 +13,8 @@ Do not activate these "Mod Manager" mods after you install the DLC Content to SP
 
 You can download the compatible versions of some of these mods here:
 
-##### [Compatible All Upgrades](https://cdn.discordapp.com/attachments/465131964127510538/561376357653938176/FreeUpgradesRM.zip)
-##### [Compatible Jetpack Fix](https://cdn.discordapp.com/attachments/465131964127510538/561368283786379264/Jetpack_Fix.zip)
+##### • [Compatible All Upgrades](https://cdn.discordapp.com/attachments/465131964127510538/561376357653938176/FreeUpgradesRM.zip)
+##### • [Compatible Jetpack Fix](https://cdn.discordapp.com/attachments/465131964127510538/561368283786379264/Jetpack_Fix.zip)
 
 ## About
 
