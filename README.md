@@ -1,5 +1,16 @@
 # DLC Content to SP Mod
 
+## Incompatible Mods
+
+Do not activate these "Mod Manager" mods after you install the DLC Content to SP mod:
+
+###### • [No Overheating](https://www.nexusmods.com/redfactionguerilla/mods/52)
+###### • [Extreme Hammer](https://www.nexusmods.com/redfactionguerilla/mods/49)
+###### • [All Upgrades](https://www.nexusmods.com/redfactionguerilla/mods/48)
+###### • All Upgrades Available (download on RF discord)
+###### • Jetpack Fix (download on RF discord)
+###### • [Super Super Hammer](https://www.nexusmods.com/redfactionguerilla/mods/36)
+
 ## About
 
 This mod is designed to give you the experience of having the DLC weapons and vehicles in the regular singleplayer.
