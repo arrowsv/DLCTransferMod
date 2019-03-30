@@ -18,6 +18,11 @@ It currently includes:
 ###### • Chomper
 ###### • Stomper
 
+## Before you install!
+
+
+
+
 ## New Versions
 
 If you are interested in what's next for this mod, here's what will be added, keep in mind not all of these will be added:
