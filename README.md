@@ -20,7 +20,27 @@ It currently includes:
 
 ## Before you install!
 
+Before you install this mod, you MUST have a clean version of all 3 VPPs (misc.vpp_pc, items.vpp_pc, vehicles_r.vpp_pc) and have no mods activated at the time of installing. If you have mods activated, they may interfere with this mod and some features may not work.
 
+If you want to activate mods with the "Mod Manager", do it after you install this mod. And MAKE SURE you do not have mods that use the replace function on any of these files (this depends on what you install):
+
+##### If you installed DLC Vehicles:
+
+###### • anim_files.xtbl
+###### • anim_set_filenames.xtbl
+###### • vehicle_cover.xtbl
+###### • vehicle_interactions.xtbl
+###### • vehicles.xtbl
+
+##### If you installed DLC Weapons:
+
+###### • character.xtbl
+###### • explosions.xtbl
+###### • items_3d.xtbl
+###### • items_inventory.xtbl
+###### • melee.xtbl
+###### • turrets.xtbl
+###### • weapons.xtbl
 
 
 ## New Versions
