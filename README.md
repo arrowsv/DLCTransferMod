@@ -17,3 +17,18 @@ It currently includes:
 
 ###### • Chomper
 ###### • Stomper
+
+## New Versions
+
+If you are interested in what's next for this mod, here's what will be added, keep in mind not all of these will be added:
+
+##### Weapons
+
+###### • Marauder Remote Charges
+###### • Pickaxe (Melee)
+###### • Impaler (Melee)
+
+##### Vehicles
+
+###### • Punisher (Walker)
+###### • Stomper (Turret versions)
