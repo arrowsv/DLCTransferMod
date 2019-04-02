@@ -29,8 +29,6 @@ It currently includes:
 
 ## Incompatible Mods
 
-Do not activate these "Mod Manager" mods after you install the DLC Content to SP mod:
-
 ###### • [No Overheating](https://www.nexusmods.com/redfactionguerilla/mods/52)
 ###### • [Extreme Hammer](https://www.nexusmods.com/redfactionguerilla/mods/49)
 ###### • [All Upgrades](https://www.nexusmods.com/redfactionguerilla/mods/48) -- If you use this mod, download the fix [here](https://cdn.discordapp.com/attachments/465131964127510538/561368283786379264/Jetpack_Fix.zip)
