@@ -47,6 +47,7 @@ If you want to activate mods with the "Mod Manager", do it after you install thi
 ###### • vehicle_cover.xtbl
 ###### • vehicle_interactions.xtbl
 ###### • vehicles.xtbl
+###### • spawn_group_vehicles.xtbl
 
 ##### If you installed DLC Weapons:
 
