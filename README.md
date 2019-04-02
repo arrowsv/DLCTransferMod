@@ -1,5 +1,12 @@
 # DLC Content to SP Mod
 
+<p align="center">
+  <a href="https://github.com/SimpleArrows/DLCTransferMod/releases" alt="My Releases">
+        <img src="https://img.shields.io/badge/Releases-DLCTransferMod-blueviolet.svg?style=flat&logo=github" /></a>
+  <a href="https://discord.gg/redfaction" alt="Red Faction Discord">
+        <img src="https://img.shields.io/badge/Discord-Red%20Faction-brightgreen.svg?style=flat&logo=discord" /></a>
+</p>
+
 ## About
 
 Before you install this mod, you MUST have a clean version of all 3 VPPs (misc.vpp_pc, items.vpp_pc, vehicles_r.vpp_pc) and have no mods activated at the time of installing. If you have mods activated, they may interfere with this mod and some features may not work.
