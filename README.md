@@ -24,7 +24,7 @@ It currently includes:
 
 ##### Vehicles
 
-###### • Chomper
+###### • Chomper (Can only be seen by the Badlands transporter mission towards the marauder safehouse)
 ###### • Stomper
 
 ## Incompatible Mods
