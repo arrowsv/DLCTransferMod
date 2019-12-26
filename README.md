@@ -36,10 +36,9 @@ It currently includes:
 
 ###### • [No Overheating](https://www.nexusmods.com/redfactionguerilla/mods/52)
 ###### • [Extreme Hammer](https://www.nexusmods.com/redfactionguerilla/mods/49)
-###### • [All Upgrades](https://www.nexusmods.com/redfactionguerilla/mods/48) -- If you use this mod, download the fix [here](https://cdn.discordapp.com/attachments/465131964127510538/561368283786379264/Jetpack_Fix.zip)
 ###### • All Upgrades Available (on RF discord)
-###### • Jetpack Fix (on RF discord) -- If you use this mod, download the fix [here](https://cdn.discordapp.com/attachments/465131964127510538/561376357653938176/FreeUpgradesRM.zip)
 ###### • [Super Super Hammer](https://www.nexusmods.com/redfactionguerilla/mods/36)
+###### • [NPC Overhaul Mod](https://www.nexusmods.com/redfactionguerrillaremarstered/mods/18)
 
 ## Installing Mod Manager mods
 
